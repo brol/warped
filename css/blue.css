@@ -1,7 +1,7 @@
 /*
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
-# Copyright (c) 2008 Steven Tlucek
+# Copyright (c) 2008-2015 Steven Tlucek
 #
 # This work is licensed under the Creative Commons
 # Attribution-Share Alike 3.0 Unported License.
@@ -13,26 +13,28 @@
 # -- END LICENSE BLOCK ------------------------------------
 */
 a {
-	color : #A8C666;
+	color : #4CB8CF;
 }
 
 #top {
-	background-image: url(img_green/top.png);
+	background-image: url(../img_blue/top.png);
 }
 
 #sidebar h2 {
-	background-image: url(img_green/sidebar_picto.png);
+	background-image: url(../img_blue/sidebar_picto.png);
 }
 #sidebar div div {
-	background-image: url(img_green/sidebar_divider.png);
+	background-image: url(../img_blue/sidebar_divider.png);
 }
 
 #search .submit {
-	background : #A8C666;
+	background : #4CB8CF;
 }
 input.submit {
-	background : #A8C666;
+	background : #4CB8CF;
 }
 input.preview {
-	background : #A8C666;
+	background : #4CB8CF;
 }
+dt.me {border:1px solid #4CB8CF; border-bottom:none;}
+dd.me {border:1px solid #4CB8CF; border-top:none;}

@@ -1,7 +1,7 @@
 <?php
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
-# Copyright (c) 2008 Steven Tlucek
+# Copyright (c) 2008-2015 Steven Tlucek
 #
 # This work is licensed under the Creative Commons
 # Attribution-Share Alike 3.0 Unported License.
@@ -23,6 +23,6 @@ function warped_publicHeadContent($core)
 		$style = 'orange';
 	}
 	
-	$url = $core->blog->settings->themes_url.'/'.$core->blog->settings->theme;
-	echo '<link rel="stylesheet" type="text/css" media="screen" href="'.$url."/".$style.".css\" />\n";
+	$url = $core->blog->settings->system->themes_url.'/'.$core->blog->settings->system->theme;
+	echo '<link rel="stylesheet" type="text/css" media="screen" href="'.$url."/css/".$style.".css\" />\n";
 }

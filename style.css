@@ -1,7 +1,7 @@
 /*
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
-# Copyright (c) 2008 Steven Tlucek
+# Copyright (c) 2008-2015 Steven Tlucek
 #
 # This work is licensed under the Creative Commons
 # Attribution-Share Alike 3.0 Unported License.
@@ -101,6 +101,7 @@ pre { overflow: auto; width: 100%; height: auto; }
 	float : left;
 	background-color : transparent;
 }
+#breadcrumb {padding:0 0 0 30px;margin:13px 0 0 0;}
 #content {
 	margin : 0 251px 0 0;
 	padding-left : 30px;
@@ -202,6 +203,7 @@ pre { overflow: auto; width: 100%; height: auto; }
 	margin: 0;
 	padding: 0;	
 }
+.topnav-home a {margin-right:10px;}
 #sidebar .categories li.category-current {
 	font-weight: bold;
 }
@@ -268,7 +270,7 @@ div.post-content {
 .post-excerpt, .post-content, .read-it {
   clear:both;
 }
-.post-excerpt img, .post-content img {
+.post-excerpt img, .post-content img, .post img {
   max-width:100%;
 }
 .post embed, .post iframe {max-width:100%;}
@@ -373,7 +375,7 @@ input.preview, input.submit {
 	width: 99%;
 }
 
-.dc-category #content-info p img {
+.dc-category #content-info img {
   max-width:100%;
 }
 #subcategories {
